@@ -1,0 +1,313 @@
+h1{
+    color: green;
+}
+h2{
+    color: blue;
+}
+p{
+    color: green;
+}
+form {
+    width: 100%;
+    border: 1px solid;
+    color: black;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+}
+
+.centerHeading{
+    text-align: center;
+}
+.centerTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.container{
+    border: none;
+    color: black;
+    width: 204px;
+    height: 100px;
+}
+
+
+output{
+    max-height: 100px;
+    max-width: 100px;
+}
+.button{
+    padding-left: 10px;
+}
+form{
+    background: #99b4d1;
+    border: none;
+}
+.heading{
+    font-size: 18px;
+    text-align: center;
+    width: available;
+    color: black;
+    background: bisque;
+    border: none;
+}
+.topHeading{
+    color: maroon;
+    font-size: 32px;
+    animation: text 1s infinite;
+}
+.subHeading{
+    width: 75%;
+    margin: 0 auto;
+    transition: bottom 2s;
+    padding: 15px 0;
+}
+@keyframes text {
+    0% {
+        color: black;
+    }
+    10%{
+        color: brown;
+    }
+    20%{
+        color: blueviolet;
+    }
+
+    30% {
+        color: green;
+    }
+    40%{
+        color: aqua;
+    }
+    50%{
+        color: burlywood;
+    }
+    60%{
+        color: chartreuse;
+    }
+    70%{
+        color: red;
+    }
+    80%{
+        color: green;
+    }
+
+    90% {
+        color: blue;
+    }
+    100%{
+        color: #2d2d2d;
+    }
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+p1{
+    text-align: center;
+    color: red;
+    padding-left: 20px;
+    text-decoration-style:dashed;
+    animation: subHeading 3s infinite;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    background-color: transparent;
+}
+a:link{
+    color: green;
+    background-color: transparent;
+}
+a:visited{
+    color: pink;
+    background-color: transparent;
+}
+a:active{
+    color: yellow;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.readMore{
+    animation: text 1s infinite;
+}
+.studentListTable{
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 25px;
+    margin-top: 0%;
+}
+
+
+.header{
+    height: 30px;
+    padding-left: 25px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.headerPhoto{
+    height: 30px;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.coloumnWidth{
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.coloumnImg{
+    height: 25px;
+}
+
+
+.photo{
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+}
+.signature{
+    height: 30px;
+    width: 100px;
+}
+.viewButton{
+    color: red;
+    border-collapse: collapse;
+    border: none;
+    background-color: white;
+}
+
+.deleteButton{
+    color: red;
+    border-collapse: collapse;
+    border: none;
+    background-color: white;
+}
+input[type=search]{
+    padding:0px;
+    padding-left: 9px;
+    background:gray;
+    color: white;
+    border-radius: 15px;
+}
+
+@keyframes subHeading {
+    10% {
+        display: none;
+        letter-spacing: 2px;
+        font-synthesis-style: revert;
+    }
+}
+
+.form-popup{
+    display: none;
+    position: fixed;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+}
+.open-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    top: 83px;
+    right: 28px;
+    width: 67px;
+}
+.form-container {
+    max-width: 360px;
+    padding: 10px;
+    background-color: white;
+}
+.form-container input[type=text], .form-container input[type=password] {
+    width: 91%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    background: #f1f1f1;
+}
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 45%;
+    margin-bottom:10px;
+    opacity: 0.8;
+}
+.form-container .cancel {
+    background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+}
+
+.view-popup{
+    display: none;
+    position: absolute;
+    width:446px;
+    right: 400px;
+    background-color: darkgrey;
+    border: solid 1px;
+    margin-top: 10px;
+   }
+.view-form-container {
+    max-width: 426px;
+    height: 20%;
+    padding: 10px;
+    background-color: ivory;
+}
+.view-form-container .updateBtn {
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+    margin-top: 0px;
+    border-radius: 4px;
+    border: solid 1px;
+}
+
+.view-form-container .deleteBtn {
+    background-color: #f2f2f2;
+    color: black;
+    cursor: pointer;
+    margin-top: 0px;
+    border-radius: 4px;
+    border: solid 1px;
+}
+
+input[type='file']{
+    display: none;
+}
+input[type='text']{
+    display: inline-block;
+}
+
+label:hover{
+    color: red;
+}
+.error{
+    font-size: 12px;
+    padding-left: 114px;
+}
+p{
+    height: 0px;
+}
+.text{
+    margin-top: 14px;
+}
+
+

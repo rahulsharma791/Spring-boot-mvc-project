@@ -1,0 +1,161 @@
+h1{
+    color: green;
+}
+h2{
+    color: blue;
+}
+p{
+    color: green;
+}
+form {
+    width: 100%;
+    border: 0.5px solid;
+    color: black;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+h4{
+    font-size: 18px;
+    text-align: center;
+}
+
+.centerHeading{
+    text-align: center;
+}
+.centerTable{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.container{
+    border: 1px solid;
+    color: black;
+    width: 204px;
+    height: 100px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+input[type=file]{
+    padding:10px;
+    background:#2d2d2d;
+border-radius: 15px;
+}
+output{
+    max-height: 100px;
+    max-width: 100px;
+}
+.button{
+    padding-left: 10px;
+}
+form{
+    background: #99b4d1;
+    border: none;
+}
+.heading{
+    font-size: 18px;
+    text-align: center;
+    width: available;
+    color: black;
+    background: bisque;
+    border: none;
+}
+.topHeading{
+    color: maroon;
+    font-size: 32px;
+    animation: text 1s infinite;
+}
+.subHeading{
+    width: 75%;
+    margin: 0 auto;
+    transition: bottom 2s;
+    padding: 15px 0;
+}
+@keyframes text {
+    0% {
+        color: black;
+    }
+    10%{
+        color: brown;
+    }
+    20%{
+        color: blueviolet;
+    }
+
+    30% {
+        color: green;
+    }
+    40%{
+        color: aqua;
+    }
+    50%{
+        color: burlywood;
+    }
+    60%{
+        color: chartreuse;
+    }
+    70%{
+        color: red;
+    }
+    80%{
+        color: green;
+    }
+
+    90% {
+        color: blue;
+    }
+    100%{
+        color: #2d2d2d;
+    }
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+p1{
+    text-align: center;
+    color: red;
+    padding-left: 20px;
+    text-decoration-style:dashed;
+    animation: subHeading 3s infinite;
+}
+a:hover{
+    cursor: pointer;
+    color: blue;
+}
+.readMore{
+    animation: text 1s infinite;
+}
+.heading{
+    font-size: 18px;
+    text-align: center;
+    width: available;
+    color: black;
+    background: bisque;
+    border: none;
+}
+
+@keyframes subHeading {
+    10%{
+        display: none;
+        letter-spacing: 2px;
+        font-synthesis-style: revert;
+    }
+    
+}
+
+.errorMsg{
+    color: red;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
